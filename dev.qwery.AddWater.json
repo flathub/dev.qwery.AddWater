@@ -89,7 +89,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/largestgithubuseronearth/addwater",
-                    "tag" : "v1.1.4"
+                    "tag" : "v1.1.5"
                 }
             ],
             "builddir" : true
