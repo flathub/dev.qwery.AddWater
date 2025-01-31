@@ -76,7 +76,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/flatpak/libportal",
-                    "tag" : "0.8.1"
+                    "tag" : "0.9.0"
                 }
             ]
         },
@@ -84,13 +84,13 @@
             "name" : "addwater",
             "buildsystem" : "meson",
             "config-opts" : [
-                "-Dprofile=user"
+                "-Dprofile=default"
             ],
             "sources" : [
                 {
                     "type" : "git",
                     "url" : "https://github.com/largestgithubuseronearth/addwater",
-                    "tag" : "v1.2.2"
+                    "tag" : "v1.2.5"
                 }
             ],
             "builddir" : true
