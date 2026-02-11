@@ -97,7 +97,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/flatpak/libportal",
-                    "tag" : "0.9.1"
+                    "tag" : "0.9.1",
+                    "commit" : "8f5dc8d192f6e31dafe69e35219e3b707bde71ce"
                 }
             ]
         },
@@ -111,7 +112,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/largestgithubuseronearth/addwater",
-                    "tag" : "v1.2.8"
+                    "tag" : "v1.2.9",
+                    "commit" : "04ba25e049ba288d1f9dae9a12cebf410ba44009"
                 }
             ],
             "builddir" : true
