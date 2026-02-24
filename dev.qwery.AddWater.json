@@ -112,8 +112,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/largestgithubuseronearth/addwater",
-                    "tag" : "v1.2.9",
-                    "commit" : "f1ead795d5ce5da60d01ad1956b565154d0608f3"
+                    "tag" : "v1.2.9.1",
+                    "commit" : "94279897585a4c5a52f1fdaf6391ecb77475539f"
                 }
             ],
             "builddir" : true
