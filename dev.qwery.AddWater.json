@@ -11,13 +11,13 @@
         "--device=dri",
         "--socket=wayland",
         "--filesystem=~/.mozilla/firefox/:rw",
-        "--filesystem=~/.config/mozilla/firefox/:rw",
+        "--filesystem=xdg-config/mozilla/firefox/:rw",
         "--filesystem=~/.var/app/org.mozilla.firefox/.mozilla/firefox/:rw",
         "--filesystem=~/.var/app/org.mozilla.firefox/config/mozilla/firefox/:rw",
         "--filesystem=~/snap/firefox/common/.mozilla/firefox/:rw",
         "--filesystem=~/snap/firefox/common/.config/mozilla/firefox/:rw",
         "--filesystem=~/.librewolf/:rw",
-        "--filesystem=~/.config/librewolf/librewolf:rw",
+        "--filesystem=xdg-config/librewolf/librewolf:rw",
         "--filesystem=~/.var/app/io.gitlab.librewolf-community/.librewolf/:rw",
         "--filesystem=~/.var/app/io.gitlab.librewolf-community/config/librewolf/librewolf/:rw",
         "--filesystem=~/.floorp/:rw",
@@ -110,8 +110,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/largestgithubuseronearth/addwater",
-                    "tag" : "v1.2.9.1",
-                    "commit" : "94279897585a4c5a52f1fdaf6391ecb77475539f"
+                    "tag" : "v1.3",
+                    "commit" : "6e9b2ea81f52074c8028d5b0afdce805bbb5921d"
                 }
             ],
             "builddir" : true
