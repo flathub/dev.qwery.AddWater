@@ -111,6 +111,7 @@
             "buildsystem" : "meson",
             "config-opts" : [
                 "-Dprofile=default"
+                "-Dtests=false"
             ],
             "sources" : [
                 {
