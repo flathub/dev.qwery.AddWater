@@ -1,7 +1,7 @@
 {
     "id" : "dev.qwery.AddWater",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
+    "runtime-version" : "51",
     "sdk" : "org.gnome.Sdk",
     "command" : "addwater",
     "finish-args" : [
@@ -37,22 +37,6 @@
     ],
     "modules" : [
         "python3-requirements.json",
-        {
-            "name" : "libportal",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "-Ddocs=false",
-                "-Dbackend-gtk4=enabled"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://github.com/flatpak/libportal",
-                    "tag" : "0.9.1",
-                    "commit" : "8f5dc8d192f6e31dafe69e35219e3b707bde71ce"
-                }
-            ]
-        },
         {
             "name" : "addwater",
             "buildsystem" : "meson",
